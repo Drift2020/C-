@@ -4,6 +4,3 @@ c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\bin\Deb
 c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\bin\Debug\SerchFP.pdb
 c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\obj\Debug\SerchFP.exe
 c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\obj\Debug\SerchFP.pdb
-E:\progectVS2013\C#\10\SerchFP\SerchFP\bin\Debug\SerchFP.exe.config
-E:\progectVS2013\C#\10\SerchFP\SerchFP\obj\Debug\SerchFP.exe
-E:\progectVS2013\C#\10\SerchFP\SerchFP\obj\Debug\SerchFP.pdb
