@@ -45,7 +45,8 @@ namespace SerchFP
                 catch (Exception e)
                 {
                     Console.Clear();
-                    Console.WriteLine(e);
+                    Console.WriteLine(e+"\n");
+                    Print();
                 }
             } while (key != ConsoleKey.Escape);
         }
