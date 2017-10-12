@@ -54,6 +54,12 @@ namespace SerchFP
             MascCorrect();
             PathCorrect();
 
+            DirectoryInfo di = new DirectoryInfo(path);
+            if (!di.Exists)
+            {
+                throw new Exception("Path incorrect!!!");               
+            }
+            Regex regMask = new Regex(mask, RegexOptions.IgnoreCase);
         }
     }
 }
