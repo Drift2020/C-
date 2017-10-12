@@ -1,0 +1,15 @@
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Preson\bin\Debug\Preson.dll
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Preson\bin\Debug\Preson.pdb
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Preson\obj\Debug\Preson.csprojResolveAssemblyReference.cache
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Preson\obj\Debug\Preson.dll
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Preson\obj\Debug\Preson.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Preson\bin\Debug\Preson.dll
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Preson\bin\Debug\Preson.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Preson\obj\Debug\Preson.csprojResolveAssemblyReference.cache
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Preson\obj\Debug\Preson.dll
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Preson\obj\Debug\Preson.pdb
+C:\Users\Buje_jy89\Desktop\Academy_Group\Preson\bin\Debug\Preson.dll
+C:\Users\Buje_jy89\Desktop\Academy_Group\Preson\bin\Debug\Preson.pdb
+C:\Users\Buje_jy89\Desktop\Academy_Group\Preson\obj\Debug\Preson.csprojResolveAssemblyReference.cache
+C:\Users\Buje_jy89\Desktop\Academy_Group\Preson\obj\Debug\Preson.dll
+C:\Users\Buje_jy89\Desktop\Academy_Group\Preson\obj\Debug\Preson.pdb

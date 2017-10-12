@@ -1,0 +1,42 @@
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\obj\Debug\Academy_Group.csprojResolveAssemblyReference.cache
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe.config
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\Academy_Group.pdb
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\AcademyGroup.dll
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\Student.dll
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\Preson.dll
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\AcademyGroup.pdb
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\Student.pdb
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\bin\Debug\Preson.pdb
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\obj\Debug\Academy_Group.exe
+c:\users\buje_jy89\documents\visual studio 2017\Projects\Academy_Group\Academy_Group\obj\Debug\Academy_Group.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe.config
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\obj\Debug\Academy_Group.exe
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\obj\Debug\Academy_Group.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\Academy_Group.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\AcademyGroup.dll
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\Student.dll
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\Preson.dll
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\AcademyGroup.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\Student.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\bin\Debug\Preson.pdb
+C:\Users\Buje_jy89\Desktop\6\Academy_Group\Academy_Group\obj\Debug\Academy_Group.csprojResolveAssemblyReference.cache
+H:\ЕКО-16-П3\Дз\NET\6\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe.config
+H:\ЕКО-16-П3\Дз\NET\6\Academy_Group\Academy_Group\obj\Debug\Academy_Group.exe
+H:\ЕКО-16-П3\Дз\NET\6\Academy_Group\Academy_Group\obj\Debug\Academy_Group.pdb
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe.config
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\Academy_Group.pdb
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\AcademyGroup.dll
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\Student.dll
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\Preson.dll
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\AcademyGroup.pdb
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\Student.pdb
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\bin\Debug\Preson.pdb
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\obj\Debug\Academy_Group.csprojResolveAssemblyReference.cache
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\obj\Debug\Academy_Group.exe
+C:\Users\Buje_jy89\Desktop\Academy_Group\Academy_Group\obj\Debug\Academy_Group.pdb
+E:\progectVS2013\8\Academy_Group\Academy_Group\bin\Debug\Academy_Group.exe.config
+E:\progectVS2013\8\Academy_Group\Academy_Group\obj\Debug\Academy_Group.exe
+E:\progectVS2013\8\Academy_Group\Academy_Group\obj\Debug\Academy_Group.pdb

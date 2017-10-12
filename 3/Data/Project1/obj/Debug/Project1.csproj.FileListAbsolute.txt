@@ -1,0 +1,12 @@
+C:\Users\Buje_jy89\documents\visual studio 2017\Projects\Data\Project1\bin\Debug\Project1.exe.config
+C:\Users\Buje_jy89\documents\visual studio 2017\Projects\Data\Project1\bin\Debug\Project1.exe
+C:\Users\Buje_jy89\documents\visual studio 2017\Projects\Data\Project1\bin\Debug\Project1.pdb
+C:\Users\Buje_jy89\documents\visual studio 2017\Projects\Data\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+C:\Users\Buje_jy89\documents\visual studio 2017\Projects\Data\Project1\obj\Debug\Project1.exe
+C:\Users\Buje_jy89\documents\visual studio 2017\Projects\Data\Project1\obj\Debug\Project1.pdb
+E:\progectVS2013\3\Data\Project1\bin\Debug\Project1.exe.config
+E:\progectVS2013\3\Data\Project1\obj\Debug\Project1.exe
+E:\progectVS2013\3\Data\Project1\obj\Debug\Project1.pdb
+E:\progectVS2013\3\Data\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+E:\progectVS2013\3\Data\Project1\bin\Debug\Project1.exe
+E:\progectVS2013\3\Data\Project1\bin\Debug\Project1.pdb

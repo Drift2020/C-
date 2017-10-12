@@ -1,0 +1,12 @@
+c:\users\buje_jy89\documents\visual studio 2017\Projects\MemoreNET\MemoreNET\obj\Debug\MemoreNET.csprojResolveAssemblyReference.cache
+c:\users\buje_jy89\documents\visual studio 2017\Projects\MemoreNET\MemoreNET\bin\Debug\MemoreNET.exe.config
+c:\users\buje_jy89\documents\visual studio 2017\Projects\MemoreNET\MemoreNET\bin\Debug\MemoreNET.exe
+c:\users\buje_jy89\documents\visual studio 2017\Projects\MemoreNET\MemoreNET\bin\Debug\MemoreNET.pdb
+c:\users\buje_jy89\documents\visual studio 2017\Projects\MemoreNET\MemoreNET\obj\Debug\MemoreNET.exe
+c:\users\buje_jy89\documents\visual studio 2017\Projects\MemoreNET\MemoreNET\obj\Debug\MemoreNET.pdb
+E:\progectVS2013\7\MemoreNET\MemoreNET\bin\Debug\MemoreNET.exe.config
+E:\progectVS2013\7\MemoreNET\MemoreNET\obj\Debug\MemoreNET.exe
+E:\progectVS2013\7\MemoreNET\MemoreNET\obj\Debug\MemoreNET.pdb
+E:\progectVS2013\7\MemoreNET\MemoreNET\bin\Debug\MemoreNET.exe
+E:\progectVS2013\7\MemoreNET\MemoreNET\bin\Debug\MemoreNET.pdb
+E:\progectVS2013\7\MemoreNET\MemoreNET\obj\Debug\MemoreNET.csprojResolveAssemblyReference.cache

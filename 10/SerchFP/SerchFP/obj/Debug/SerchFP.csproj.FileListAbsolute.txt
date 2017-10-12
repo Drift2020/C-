@@ -1,0 +1,6 @@
+c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\obj\Debug\SerchFP.csprojResolveAssemblyReference.cache
+c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\bin\Debug\SerchFP.exe.config
+c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\bin\Debug\SerchFP.exe
+c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\bin\Debug\SerchFP.pdb
+c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\obj\Debug\SerchFP.exe
+c:\users\buje_jy89\documents\visual studio 2017\Projects\SerchFP\SerchFP\obj\Debug\SerchFP.pdb
