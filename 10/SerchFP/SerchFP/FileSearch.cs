@@ -73,7 +73,7 @@ namespace SerchFP
                 Console.WriteLine(ex.Message);
             }
         }
-        static ulong FindInFiles(DateTime timeTo, DateTime timePast, DirectoryInfo di, Regex regMask)
+        private ulong FindInFiles(DateTime timeTo, DateTime timePast, DirectoryInfo di, Regex regMask)
         {                 
             // Количество обработанных файлов
             ulong CountOfMatchFiles = 0;
@@ -93,7 +93,7 @@ namespace SerchFP
             foreach (FileInfo f in fi)
             {
                 // Если файл соответствует маске
-                if (regMask.IsMatch(f.Name)&& timePast >= FileInfo.GetLastWriteTime(f.Name))
+                if (regMask.IsMatch(f.Name)&& timePast >= File.GetLastWriteTime(f.Name)&& timeTo <= File.GetLastWriteTime(f.Name))
                 {
                     // Увеличиваем счетчик
                     ++CountOfMatchFiles;

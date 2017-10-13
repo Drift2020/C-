@@ -10,7 +10,7 @@ namespace SerchFP
     {
         static void Print()
         {
-            Console.Clear();
+           
             Console.WriteLine("1. Search File\nEsc. Exit");
         }
         static void Main()
@@ -39,6 +39,8 @@ namespace SerchFP
                             DateTime timePast = DateTime.Parse(Console.ReadLine());
 
                             File_Search.AddParams(path,mask,timeTo,timePast);
+                            File_Search.SearchFiles();
+                            Print();
                             break;
                     }
                 }
