@@ -21,7 +21,7 @@ namespace SerchFP
 
         private void TestCorrectValue(string path, string mask, DateTime timeTo, DateTime timePast)
         {
-            if (timePast > timeTo)
+            if (timePast < timeTo)
             {
                 throw new Exception("Error, date uncorrect");
             }
@@ -60,6 +60,57 @@ namespace SerchFP
                 throw new Exception("Path incorrect!!!");               
             }
             Regex regMask = new Regex(mask, RegexOptions.IgnoreCase);
+
+
+            try
+            {
+                // Вызываем функцию поиска
+                ulong Count = FindInFiles(timeTo, timePast, di, regMask);
+                Console.WriteLine("Всего обработано файлов: {0}.", Count);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        private ulong FindInFiles(DateTime timeTo, DateTime timePast, DirectoryInfo di, Regex regMask)
+        {                 
+            // Количество обработанных файлов
+            ulong CountOfMatchFiles = 0;
+
+            FileInfo[] fi = null;
+            try
+            {
+                // Получаем список файлов
+                fi = di.GetFiles();
+            }
+            catch
+            {
+                return CountOfMatchFiles;
+            }
+
+            // Перебираем список файлов
+            foreach (FileInfo f in fi)
+            {
+                // Если файл соответствует маске
+                if (regMask.IsMatch(f.Name)&& timePast >= File.GetLastWriteTime(f.Name)&& timeTo <= File.GetLastWriteTime(f.Name))
+                {
+                    // Увеличиваем счетчик
+                    ++CountOfMatchFiles;
+                    Console.WriteLine("File " + f.Name);
+                  
+                }
+            }
+
+            // Получаем список подкаталогов
+            DirectoryInfo[] diSub = di.GetDirectories();
+            // Для каждого из них вызываем (рекурсивно)
+            // эту же функцию поиска
+            foreach (DirectoryInfo diSubDir in diSub)
+                CountOfMatchFiles += FindInFiles(timeTo, timePast, diSubDir, regMask);
+
+            // Возврат количества обработанных файлов
+            return CountOfMatchFiles;
         }
     }
 }
