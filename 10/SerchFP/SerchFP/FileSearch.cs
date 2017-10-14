@@ -60,12 +60,13 @@ namespace SerchFP
                 throw new Exception("Path incorrect!!!");               
             }
             Regex regMask = new Regex(mask, RegexOptions.IgnoreCase);
-
+            ulong count = 0;
+           
 
             try
             {
                 // Вызываем функцию поиска
-                ulong Count = FindInFiles(timeTo, timePast, di, regMask);
+                ulong Count = FindInFiles(timeTo, timePast, di, regMask,ref count);
                 Console.WriteLine("Всего обработано файлов: {0}.", Count);
             }
             catch (Exception ex)
@@ -81,7 +82,7 @@ namespace SerchFP
             sw.Close();
         }
         
-        private ulong FindInFiles(DateTime timeTo, DateTime timePast, DirectoryInfo di, Regex regMask)
+        private ulong FindInFiles(DateTime timeTo, DateTime timePast, DirectoryInfo di, Regex regMask, ref ulong count)
         {                 
             // Количество обработанных файлов
             ulong CountOfMatchFiles = 0;
@@ -105,9 +106,11 @@ namespace SerchFP
                 if (regMask.IsMatch(f.Name) && File.GetLastWriteTime(f.FullName) <= timePast &&   File.GetLastWriteTime(f.DirectoryName) >=timeTo)
                 {
                     // Увеличиваем счетчик
+                   
                     ++CountOfMatchFiles;
                     Console.WriteLine("File " + f.Name);
-                    Save(f, CountOfMatchFiles);
+                    Save(f, count);
+                    count++;
                 }
             }
 
@@ -115,8 +118,13 @@ namespace SerchFP
             DirectoryInfo[] diSub = di.GetDirectories();
             // Для каждого из них вызываем (рекурсивно)
             // эту же функцию поиска
+           
             foreach (DirectoryInfo diSubDir in diSub)
-                CountOfMatchFiles += FindInFiles(timeTo, timePast, diSubDir, regMask);
+            {                
+                CountOfMatchFiles += FindInFiles(timeTo, timePast, diSubDir, regMask, ref count);
+               
+            }
+               
 
             // Возврат количества обработанных файлов
             return CountOfMatchFiles;
