@@ -74,9 +74,11 @@ namespace SerchFP
             }
         }
 
-        private void Save(FileInfo f)
+        private void Save(FileInfo f, ulong CountOfMatchFiles)
         {
-
+            StreamWriter sw = new StreamWriter("File.txt", true);
+            sw.WriteLine(CountOfMatchFiles+". Name: "+f.Name+" FullPath: "+f.FullName+ " Last Write Time: " + f.LastWriteTime);
+            sw.Close();
         }
         
         private ulong FindInFiles(DateTime timeTo, DateTime timePast, DirectoryInfo di, Regex regMask)
@@ -105,7 +107,7 @@ namespace SerchFP
                     // Увеличиваем счетчик
                     ++CountOfMatchFiles;
                     Console.WriteLine("File " + f.Name);
-                    Save(f);
+                    Save(f, CountOfMatchFiles);
                 }
             }
 
