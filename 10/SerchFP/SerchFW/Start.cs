@@ -20,6 +20,7 @@ namespace SerchFW
             ConsoleKey key;
             do
             {
+                Print();
                 ConsoleKeyInfo info = Console.ReadKey();
                 key = info.Key;
                 try
@@ -46,29 +47,38 @@ namespace SerchFW
                             {
                                
                                Console.WriteLine();
-                               Console.WriteLine("1. Next          2. Beak        3. Exit");
+                               Console.WriteLine("1. Next     2. Beak    3. Delite    4. Exit");
 
                                 key1 = Int32.Parse(Console.ReadLine());
-                                Console.Clear();
+                                
                                 switch (key1)
                                 {
                                     case 1:
+                                        Console.Clear();
                                         numbr += 50;
                                         File_Search.Print(numbr);
                                         
                                         break;
                                     case 2:
+                                        Console.Clear();
                                         if ((numbr - 50) >= 0)
                                         {
                                             numbr -= 50;
                                             File_Search.Print(numbr);                                          
                                         }
                                         break;
+                                    case 3:
+                                        
+                                        File_Search.Delete();
+                                        Console.Clear();
+                                        File_Search.Print(numbr);
+                                        break;
                                 }
-                            } while (key1!=3);
+                            } while (key1!=4);
                             
                             break;
-                       
+                      
+
                     }
                 }
                 catch (Exception e)
