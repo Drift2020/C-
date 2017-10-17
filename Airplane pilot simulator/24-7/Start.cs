@@ -1,51 +1,98 @@
 ﻿using System;
-using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace _24_7
 {
     class Start
     {
+       static Aircraft Pilot = new Aircraft();
 
-        void Print_Start_Menu()
+        private static void OnTimer(object sender, ElapsedEventArgs arg /* Предоставляет данные для события Elapsed */)
+        {
+            // Prevent example from ending if CTL+C is pressed.
+            Console.TreatControlCAsInput = true;
+
+            ConsoleKey key;
+            ConsoleKeyInfo cki = Console.ReadKey();
+            
+            key = cki.Key;
+
+            switch (key)
+            {
+                case ConsoleKey.LeftArrow:
+                    if ((cki.Modifiers & ConsoleModifiers.Shift) != 0)
+                        Pilot.Speed -= 150;
+                    else
+                        Pilot.Speed -= 50;
+                    break;
+                case ConsoleKey.RightArrow:
+                    if ((cki.Modifiers & ConsoleModifiers.Shift) != 0)
+                        Pilot.Speed += 150;
+                    else
+                        Pilot.Speed += 50;
+                    break;
+                case ConsoleKey.UpArrow:
+                    if ((cki.Modifiers & ConsoleModifiers.Shift) != 0)
+                        Pilot.Height += 500;
+                    else
+                        Pilot.Height += 250;
+                    break;
+                case ConsoleKey.DownArrow:
+                    if ((cki.Modifiers & ConsoleModifiers.Shift) != 0)
+                        Pilot.Height -= 500;
+                    else
+                        Pilot.Height -= 250;
+                    break;
+            }
+        }
+
+
+
+
+
+        static void Print_Start_Menu()
         {
             Console.WriteLine("1. Start simulator\nEsc. Exit");
         }
 
-        void Menu(Keys key)
+        void Start_Simulator()
         {
-            
+
+        }
+        static void Menu(ConsoleKey key)
+        {
             switch (key)
             {
-                case Keys.Left:
-                   
-                    break;
-                case Keys.Right:
-                 
-                    break;
-                case Keys.Up:
-                 
-                    break;
-                case Keys.Down:
-                   
-                    break;
-                case Keys.RShiftKey:
+                case ConsoleKey.D1:
 
+                    break;
+                case ConsoleKey.D2:
+
+                    break;
+                default:
+                    Console.Clear();
+                    Print_Start_Menu();
                     break;
             }
         }
-        public void Main()
+
+
+        public static void Main()
         {
-         
+            Print_Start_Menu();
             ConsoleKey key;
             do
             {
+
                 ConsoleKeyInfo info = Console.ReadKey();
                 key = info.Key;
-            } while (true);
+                Menu(key);
+
+            } while (key!= ConsoleKey.Escape);
         }
     }
 }

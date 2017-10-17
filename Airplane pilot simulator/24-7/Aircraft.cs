@@ -11,8 +11,13 @@ namespace _24_7
     {
         public int Height { get; set; }
         public int Speed { get; set; }
-
         List<Dis> list = new List<Dis>();        
+
+        public Aircraft()
+        {
+            Height = 0;
+            Speed = 0;
+        }
 
         public event Dis Observation
         {
