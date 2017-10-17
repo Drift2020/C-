@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,30 +15,31 @@ namespace _24_7
             Console.WriteLine("1. Start simulator\nEsc. Exit");
         }
 
-        void Menu(ConsoleKey key)
+        void Menu(Keys key)
         {
-            switch(key)
+            
+            switch (key)
             {
-                case ConsoleKey.LeftArrow:
+                case Keys.Left:
                    
                     break;
-                case ConsoleKey.RightArrow:
+                case Keys.Right:
                  
                     break;
-                case ConsoleKey.UpArrow:
+                case Keys.Up:
                  
                     break;
-                case ConsoleKey.DownArrow:
+                case Keys.Down:
                    
                     break;
-                case ConsoleKey.:
+                case Keys.RShiftKey:
 
                     break;
             }
         }
         public void Main()
         {
-
+         
             ConsoleKey key;
             do
             {
